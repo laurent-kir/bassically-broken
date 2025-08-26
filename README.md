@@ -1,13 +1,17 @@
-# Petals on the Wind
-### Bassically Broken
+# [Petals on the Wind](https://laurent-kir.github.io/bassically-broken/petals-on-the-wind/)
+## Bassically Broken
 
 AI-Generated Album, 2025  
 by [Leonid Marinin](https://t.me/le_marin)  
 [suno.com](https://suno.com)
 
-![Petals on the Wind](https://laurent-kir.github.io/bassically-broken/petals-on-the-wind/img/cover-thumb.jpg "Petals on the Wind")
+<img src="https://laurent-kir.github.io/bassically-broken/petals-on-the-wind/img/cover.jpg" width="256" height="256" title="Petals on the Wind" alt="Petals on the Wind">
 
-Genres: `Post-Hardcore`, `Melodic Hardcore`, `Alternative Rock`, `Pop Rock`
+Genres:  
+`Post-Hardcore`  
+`Melodic Hardcore`  
+`Alternative Rock`  
+`Pop Rock`
 
 Tracks: **12**  
 Duration: **42 min**
