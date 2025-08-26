@@ -394,6 +394,10 @@ a:hover {
 /* PLAYER */
 
 .player {
+  --spin-play-state: paused;
+  --spin-visibility: hidden;
+  --spin-opacity: 0;
+  --spin-transition-delay: 0s;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -404,6 +408,46 @@ a:hover {
   background-attachment: fixed;
   z-index: 1;
 }
+.player.ui-locked {
+  --spin-play-state: running;
+  --spin-visibility: visible;
+  --spin-opacity: 1;
+  --spin-transition-delay: .4s;
+}
+
+/* SPIN-LOADER */
+
+@keyframes spin {
+  to { transform: rotate(1turn); }
+}
+#spin {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(40, 40, 40, .5);
+  opacity: var(--spin-opacity);
+  visibility: var(--spin-visibility);
+  transition-property: opacity, visibility;
+  transition-duration: .3s;
+  transition-delay: var(--spin-transition-delay);
+  z-index: 5;
+}
+#spin::after {
+  content: "";
+  font-size: 2.5em;
+  width: 1em;
+  height: 1em;
+  position: absolute;
+  left: calc(50% - .5em);
+  top: calc(50% - .5em);
+  border-top: .06em solid #aaa;
+  border-right: .06em solid transparent;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  animation-play-state: var(--spin-play-state);
+}
+
+/* COVER & INFO */
+
 .cover {
   width: auto;
   height: 46%;

@@ -16,6 +16,13 @@ const elInfo = document.getElementById('info');
 const nodeInfoName = elInfo.firstElementChild.firstChild;
 
 let currentTrack;
+let isUILocked = 0;
+
+function lockUI(force) {
+  isUILocked = force;
+  return elPlayer.classList.toggle('ui-locked', force);
+}
+
 const imports = {};
 const allTracks = new Map;
 
@@ -71,17 +78,22 @@ function setCurrentLyrics(track) {
 }
 
 function playpause() {
+  if (isUILocked) return;
   if (currentTrack.paused) return currentTrack.play();
   return currentTrack.pause();
 }
 
 function rewindBackward() {
+  if (isUILocked) return;
+
   const time = currentTrack.currentTime;
   currentTrack.currentTime = Math.max(0, time - 10);
   currentTrack.ontimeupdate();
 }
 
 function rewindForward() {
+  if (isUILocked) return;
+
   const time = currentTrack.currentTime;
   const duration = currentTrack.duration;
   currentTrack.currentTime = Math.min(duration, time + 10);
@@ -89,18 +101,26 @@ function rewindForward() {
 }
 
 function setNextPrev(step) {
+  if (isUILocked) return;
+
   const { tracks } = imports;
   const track = tracks[step + tracks.indexOf(currentTrack._meta)];
   if (track) switchTrack(track.id);
 }
 
 async function switchTrack(id, autoplay = true) {
+  if (isUILocked) return;
+
   const track = allTracks.get(id) || createNewTrack(id);
 
   if (!track) return;
   if (track === currentTrack) return playpause();
 
-  if (!track._hasMetadata) await waitForMetadata(track);
+  if (!track._hasMetadata) {
+    lockUI(1);
+    await waitForMetadata(track);
+    lockUI(0);
+  }
 
   if (currentTrack && !currentTrack.paused) currentTrack.pause();
 
