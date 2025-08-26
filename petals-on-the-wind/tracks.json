@@ -1,0 +1,110 @@
+[
+  {
+    "id": "1",
+    "name": "Petals on the Wind",
+    "artist": "Bassically Broken",
+    "album": "Petals on the Wind",
+    "duration": 223,
+    "cover": "img/cover.jpg",
+    "src": "tracks/01-Petals-on-the-Wind.mp3"
+  },
+  {
+    "id": "2",
+    "name": "The Story",
+    "artist": "Bassically Broken",
+    "album": "Petals on the Wind",
+    "duration": 276,
+    "cover": "img/cover.jpg",
+    "src": "tracks/02-The-Story.mp3"
+  },
+  {
+    "id": "3",
+    "name": "Complicated",
+    "artist": "Bassically Broken",
+    "album": "Petals on the Wind",
+    "duration": 182,
+    "cover": "img/cover.jpg",
+    "src": "tracks/03-Complicated.mp3"
+  },
+  {
+    "id": "4",
+    "name": "Love & Lust",
+    "artist": "Bassically Broken",
+    "album": "Petals on the Wind",
+    "duration": 188,
+    "cover": "img/cover.jpg",
+    "src": "tracks/04-Love-and-Lust.mp3"
+  },
+  {
+    "id": "5",
+    "name": "Mess",
+    "artist": "Bassically Broken",
+    "album": "Petals on the Wind",
+    "duration": 138,
+    "cover": "img/cover.jpg",
+    "src": "tracks/05-Mess.mp3"
+  },
+  {
+    "id": "6",
+    "name": "Withdrawal",
+    "artist": "Bassically Broken",
+    "album": "Petals on the Wind",
+    "duration": 237,
+    "cover": "img/cover.jpg",
+    "src": "tracks/06-Withdrawal.mp3"
+  },
+  {
+    "id": "7",
+    "name": "Forget",
+    "artist": "Bassically Broken",
+    "album": "Petals on the Wind",
+    "duration": 209,
+    "cover": "img/cover.jpg",
+    "src": "tracks/07-Forget.mp3"
+  },
+  {
+    "id": "8",
+    "name": "At Sunset",
+    "artist": "Bassically Broken",
+    "album": "Petals on the Wind",
+    "duration": 229,
+    "cover": "img/cover.jpg",
+    "src": "tracks/08-At-Sunset.mp3"
+  },
+  {
+    "id": "9",
+    "name": "Over",
+    "artist": "Bassically Broken",
+    "album": "Petals on the Wind",
+    "duration": 288,
+    "cover": "img/cover.jpg",
+    "src": "tracks/09-Over.mp3"
+  },
+  {
+    "id": "10",
+    "name": "Goodbye",
+    "artist": "Bassically Broken",
+    "album": "Petals on the Wind",
+    "duration": 207,
+    "cover": "img/cover.jpg",
+    "src": "tracks/10-Goodbye.mp3"
+  },
+  {
+    "id": "11",
+    "name": "Complicated (Club Remix)",
+    "artist": "Bassically Broken",
+    "album": "Petals on the Wind",
+    "duration": 176,
+    "cover": "img/cover.jpg",
+    "src": "tracks/11-Complicated-(Club-Remix).mp3"
+  },
+  {
+    "id": "12",
+    "name": "Goodbye (Metalcore Version)",
+    "artist": "Bassically Broken",
+    "album": "Petals on the Wind",
+    "duration": 205,
+    "cover": "img/cover.jpg",
+    "src": "tracks/12-Goodbye-(Metalcore-Version).mp3"
+  }
+]
