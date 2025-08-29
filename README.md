@@ -22,4 +22,5 @@ All lyrics by [Leonid Marinin](https://t.me/le_marin)
 
 [Spotify](https://open.spotify.com/album/2dKdpkoaRJFvo7R1NtMO8Q)  
 [Youtube Music](https://music.youtube.com/playlist?list=OLAK5uy_mJ-BuAPJUQboRAw-KZ1PODSk7UZ30t8F0)  
-[Amazon Music](https://music.amazon.com/albums/B0FNKPQX2Y)
+[Amazon Music](https://music.amazon.com/albums/B0FNKPQX2Y)  
+[Apple Music](https://music.apple.com/us/album/petals-on-the-wind-ai-gen/1835879030)
